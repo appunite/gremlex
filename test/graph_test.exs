@@ -245,6 +245,30 @@ defmodule Gremlex.GraphTests do
     end
   end
 
+  describe "values/1" do
+    test "adds a value function the queue" do
+      actual_graph = g() |> values()
+      expected_graph = Queue.in({"values", []}, Queue.new())
+      assert actual_graph == expected_graph
+    end
+  end
+
+  describe "order/2" do
+    test "adds a order function the queue" do
+      actual_graph = g() |> order("foo")
+      expected_graph = Queue.in({"order", ["foo"]}, Queue.new())
+      assert actual_graph == expected_graph
+    end
+  end
+
+  describe "local/1" do
+    test "adds a local function the queue" do
+      actual_graph = g() |> local()
+      expected_graph = Queue.in({"local", []}, Queue.new())
+      assert actual_graph == expected_graph
+    end
+  end
+
   describe "v/1" do
     test "adds a V function to the queue" do
       actual_graph = g() |> v()
@@ -253,7 +277,7 @@ defmodule Gremlex.GraphTests do
     end
 
     test "creates a vertex when the id is a number" do
-      check all n <- integer() do
+      check all(n <- integer()) do
         actual_graph = v(n)
         expected_graph = %Vertex{id: n, label: ""}
         assert actual_graph == expected_graph
