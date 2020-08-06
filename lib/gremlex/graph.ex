@@ -601,6 +601,11 @@ defmodule Gremlex.Graph do
     enqueue(graph, "where", [traversal])
   end
 
+  @spec neq(Gremlex.Graph.t(), number()) :: Gremlex.Graph.t()
+  def neq(graph, number) do
+    enqueue(graph, "neq", [number])
+  end
+
   @spec not_(Gremlex.Graph.t(), any()) :: Gremlex.Graph.t()
   def not_(graph, traversal) do
     enqueue(graph, "not", [traversal])
