@@ -7,54 +7,32 @@
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/certifi" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/confex" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/dialyxir" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/earmark" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/erlex" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ex_doc" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/file_system" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/hackney" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/httpoison" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/idna" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/makeup" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/makeup_elixir" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/metrics" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/mimerl" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/mix_test_watch" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/nimble_parsec" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/parse_trans" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/poison" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/poolboy" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/socket" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ssl_verify_fun" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/unicode_util_compat" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/uuid" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/certifi" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/confex" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/excoveralls" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/hackney" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/httpoison" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/idna" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/jason" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/meck" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/metrics" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/mimerl" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/mock" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/parse_trans" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/poison" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/poolboy" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/socket" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ssl_verify_fun" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/stream_data" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/unicode_util_compat" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/assets/node_modules/phoenix" />
       <excludeFolder url="file://$MODULE_DIR$/assets/node_modules/phoenix_html" />
       <excludeFolder url="file://$MODULE_DIR$/cover" />
       <excludeFolder url="file://$MODULE_DIR$/deps" />
       <excludeFolder url="file://$MODULE_DIR$/doc" />
       <excludeFolder url="file://$MODULE_DIR$/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/idna" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/meck" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/mock" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/jason" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/confex" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/mimerl" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/poison" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/socket" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/certifi" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/hackney" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/metrics" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/poolboy" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/httpoison" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/excoveralls" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/parse_trans" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/stream_data" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ssl_verify_fun" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/unicode_util_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/elixir_uuid" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="poison" level="project" />
@@ -91,6 +69,6 @@
     <orderEntry type="library" name="makeup" level="project" />
     <orderEntry type="library" name="benchee" level="project" />
     <orderEntry type="library" name="nimble_parsec" level="project" />
-    <orderEntry type="library" name="erlex" level="project" />
+    <orderEntry type="library" name="elixir_uuid" level="project" />
   </component>
 </module>
